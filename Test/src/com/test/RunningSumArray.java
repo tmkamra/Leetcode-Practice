@@ -18,8 +18,7 @@ public class RunningSumArray {
 	
 	public static void main(String[] args) {
 		RunningSumArray runningSumArray=new RunningSumArray();
-		int[] sumArray=new int[5];
-		sumArray=runningSumArray.runningSum(new int[] {3,1,2,10,1});
+		int[] sumArray=runningSumArray.runningSum(new int[] {3,1,2,10,1});
 		for(int i=0; i<sumArray.length; i++) {
 			System.out.println(sumArray[i]);
 		}
