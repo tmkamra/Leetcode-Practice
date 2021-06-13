@@ -3,8 +3,6 @@ package com.test;
 public class Pattern {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		Pattern p = new Pattern();
 		p.printPattern(5);
 	}
@@ -30,7 +28,7 @@ public class Pattern {
 				System.out.print(" ");
 			}
 			System.out.println();
-			ctr = ctr + 1;
+			ctr++;
 		}
 	}
 }
