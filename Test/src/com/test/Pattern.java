@@ -23,10 +23,6 @@ public class Pattern {
 			for (int k = 2; k <= i; k++) {
 				System.out.print(k);
 			}
-
-			for (int j = i; j <= n - 1; j++) {
-				System.out.print(" ");
-			}
 			System.out.println();
 			ctr++;
 		}
